@@ -1,3 +1,11 @@
+import os
+
+if os.path.isfile('products.csv'):
+	print('yes')
+else:
+	print('no')
+
+
 products =[]
 
 with open('products.csv', 'r', encoding='utf-8') as f:
